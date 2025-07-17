@@ -17,10 +17,10 @@ export default function Education() {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-tr from-blue-500 to-pink-400 p-10">
-      <h1 className="text-4xl font-bold text-white text-center mb-12">Education</h1>
+    <div className="min-h-screen bg-gradient-to-tr from-gray-300 to-pink-200 p-10">
+      <h1 className="text-4xl font-bold text-black  text-center mb-12 drop-shadow-[0_0_5px_rgba(255,255,0,0.8)]">Education</h1>
 
-      <div className="max-w-4xl mx-auto space-y-10">
+      <div className="max-w-4xl mx-auto space-y-10 flex flex-col font-bold">
         {educationList.map((edu, i) => (
           <div
             key={i}
